@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <title>AppDePerros</title>
+    <link href="style.css" rel="stylesheet">
+  </head> 
+  <body>
+    <h1 id="TITULO">AppDePerros</h1> 
+    <main>
+     <h2>Nina cara de mosca muerta</h2>
+     <!-- -->
+     <p><a href="https://www.pexels.com/es-es/buscar/perros/" target="_blank" rel="noopener noreferrer">Haz click aqui para ver más imagenes.</a></p>
+
+     <a href="https://www.pexels.com/es-es/buscar/perros/" target="blank" rel="noopener noreferrer"><img src="Imagenes/Nina.jpg"class="imagen-de-Nina"></a>   
+     
+     <h3>Listas No ordenadas</h3>
+
+     <div>
+     <h4><em>Cosas que le gustan a Nina:</em></h4>
+
+     <ul class="Listas">
+       <li><strong>El Pan</strong></li>
+       <li><strong>Que le rasquen la panza</strong></li>
+       <li><strong>Estar en Valle</strong></li>
+     </ul>
+     <br>
+      
+     <h3>Listas ordenadas</h3>
+
+     <h4><em>Cosas que no le gustan a Nina:</em></h4>
+
+     <ol class="Listas">
+       <li><strong>Truenos</strong> </li>
+       <li><strong>Cuetes</strong> </li>
+       <li><strong>Chuchin</strong> </li>
+     </ol>
+    </div>
+     <form action ="/enviar-respuesta">
+     <!--Texto y Botón de enviar-->
+        <input type="text" placeholder="Agrege su respuesta" required>
+        <button type="submit">Enviar</button>
+     </form>
+     
+     <h3>¿Qué prefiere Nina?</h3>
+     <form action ="/enviar respuesta">
+      <!--Botones de radio -->
+      <label><input type="radio" value="PAN" name="PAN-CROQUETAS">PAN</label>
+      <br>
+      <label><input type="radio" value ="CROQUETAS" name="PAN-CROQUETAS">CROQUETAS</label>
+      <br>
+      <h3><em>¿Qué prefiere Nina?</em></h3>
+      <!--Casillas de verificación-->
+      <label><input type="checkbox" value="PAN" name="comida"> PAN</label>
+      <br>
+      <label><input type="checkbox" value="JAMÓN" name="comida"> JAMÓN</label>
+      <br>
+      <label><input type="checkbox" value="CALCETINES" name="comida"> CALCETINES</label>
+     </form>
+
+   </main>
+   <footer>
+      <p>
+      <h5><em><small> Derechos de autor:</small> Marcos Abraham Muñoz Jiménez</em></h5>
+      </p>
+   </footer>
+  </body>
+</html>
